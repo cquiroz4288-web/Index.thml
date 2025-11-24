@@ -1,0 +1,44 @@
+body {
+    /* Fondo: Cielo azul con nubes (simulación con degradado) */
+    background: linear-gradient(to top, #87CEEB 0%, #B0E0E6 100%); 
+    /* Colores del cielo: Azul claro y cian claro */
+    
+    /* Nota: Para nubes reales, se necesitaría una imagen de fondo. 
+       Aquí, usamos un gradiente que simula un cielo de día despejado. */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: white; /* Color del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mejor lectura */
+}
+
+.clock-container {
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.1); /* Fondo semitransparente para destacar */
+}
+
+.time-display {
+    font-size: 8rem; /* Tamaño grande para la hora */
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.ampm-display {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.battery-info {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
